@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="first-activity ">
+                <div class="cont-small">
+                    <div class="title">
+                        Weather App
+                    </div>
+                    <div class="change-icon">
+                        <button class="change-icon-btn">
+                            <span>🔁</span>
+                        </button>
+                    </div>
+                </div>
+                <hr>
+                <div class="inputs">
+                    <div class="input">
+                        <input id="input" type="text" placeholder="Enter city Name">
+                    </div>
+                    <p class="lined-text">OR</p>
+                    <div class="choose">
+                        <select class="dropdown-menu">
+                            <option value="">Choose from here ...</option>
+                            <!-- <option value="">op1</option>
+                            <option value="">op2</option>
+                            <option value="">op3</option> -->
+                        </select>
+                    </div>
+                    <p class="lined-text">OR</p>
+                    <button class="btn">
+                        Get Device Location
+                    </button>
+                    <button class="enter-btn btn">
+                        Enter
+                    </button>
+                </div>
+            </div>
+            <div class="details disable-none">
+                <div class="title">
+                    <button class="icon" id="btn">
+                        <span class="material-symbols-outlined">
+                            arrow_back
+                        </span>
+                    </button>
+                    <p>Weather App</p>
+                </div>
+                <hr>
+                <div class="rest">
+                    <div class="img">
+                        <img id="img" src="images/weather.png" alt="">
+                    </div>
+                    <div class="current-temp">
+                        39°C
+                    </div>
+                    <div class="description">Sunny</div>
+                    <div class="Location">
+                        <div class="icon">
+                            <span class="material-symbols-outlined">
+                                location_on
+                                </span>
+                        </div>
+                        <div class="text" id="location">
+                            Egypt
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="more-details">
+                    <div class="feelslike">
+                        <div class="icon">
+                            <span class="material-symbols-outlined">
+                                thermostat
+                                </span>
+                        </div>
+                        <div class="text">
+                            <div class="top" id="feelslike">17°C</div>
+                            <div class="bottom">Feel's like</div>
+                        </div>
+                    </div>
+                    <div class="humadity">
+                        <div class="icon">
+                            <span class="material-symbols-outlined">
+                                humidity_high
+                            </span>
+                        </div>
+                        <div class="text">
+                            <div class="top" id="humadity">84%</div>
+                            <div class="bottom">Humadity</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>
